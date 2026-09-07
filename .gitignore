@@ -1,0 +1,14 @@
+# Index artifacts stay on G:\AI-Models\indexes — never in git
+*.faiss
+*_meta.jsonl
+index_manifest.json
+.checkpoints/
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Env
+.env
